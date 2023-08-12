@@ -1,0 +1,32 @@
+.empty_image{
+          object-fit: cover;
+          height: 450px;
+          width:600px;
+          border-radius: 5%;
+}
+
+
+.expense-list{
+          margin: 6px 12px;
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+}
+
+.empty-state{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+}
+
+.empty-state label{
+          font-size: larger;
+          font-weight: 500;
+}
+
+@media only screen and (max-width:1024px) {
+          .empty_image{
+                    height: 240px;
+          }
+}
